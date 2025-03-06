@@ -1,23 +1,3 @@
-output:
-
-CSUN@Hassans-MacBook-Air comp467 % python3 comp467db.py
-
-Databases: ['mydatabase', 'sample_mflix', 'admin', 'local']
-
-The database exists.
-
-Collections: ['customers']
-
-The collection exists.
-
-Inserted document ID: 67bd1272a5527cb54de7072e
-
- 
-
-code (followed W3 step by step instructions):
-
- 
-
 import pymongo
 
 client = pymongo.MongoClient("mongodb+srv://myusername:mypassword@mycluster.cpy3e.mongodb.net/")
